@@ -1,0 +1,65 @@
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/*Hero*/
+
+#vid {
+  width: 100%;
+  height: 100vh;
+}
+
+#herolayer {
+  background-color: black;
+  opacity: 0.5;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  margin: 0;
+}
+
+#heroTitle {
+  color: white;
+  font-size: 17ch;
+  display: block;
+  text-align: center;
+  position: absolute;
+  bottom: 45%;
+  margin: 0.5em;
+}
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+  background-color: black;
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #F09A9D; /* Red */
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #F5CF8E; /* Yellow */
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: #B2D6FF; /* Blue */
+  }
+}
