@@ -65,7 +65,7 @@ body {
 font-size: 4vmin;
 font-family: 'Montserrat', sans-serif;
 width: 100%;
-background: -webkit-linear-gradient(#f84a06, #f023f0);
+background: -webkit-linear-gradient( #f15d30, #1f0a18);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 margin-top: 5vw;
@@ -146,7 +146,7 @@ input#submit {
 	font-family: 'Montserrat', sans-serif; 
 	border: 2px solid black;
 	 border-top: 2px solid #311047;
-	 background: -webkit-gradient(linear, left top, left bottom, from(#b62e05), to(#c927b3));
+   background: -webkit-linear-gradient( #f15d30, #1f0a18);
    width: 100%;
   text-align: center;
   padding: .5em;
