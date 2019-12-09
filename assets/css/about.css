@@ -159,7 +159,7 @@ Triangle Div Style: https://stackoverflow.com/questions/31242417/center-triangle
   margin-left: 3em;
   margin-right: 3em;
   margin-top: 3em;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
 }
 #aboutTitle {
   text-align: center;
@@ -170,7 +170,7 @@ Triangle Div Style: https://stackoverflow.com/questions/31242417/center-triangle
 
 #aboutContent {
   color: black;
-  line-height: 1.5;
+  line-height: 1;
 }
 
 
@@ -178,7 +178,10 @@ Triangle Div Style: https://stackoverflow.com/questions/31242417/center-triangle
   display: block;
   text-align: center;
   margin: auto;
-  color: #7a197e;
+  background: -webkit-linear-gradient( -45deg, #f15d30, #1f0a18);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1em;
 }
 
 @media(min-width: 600px) {
