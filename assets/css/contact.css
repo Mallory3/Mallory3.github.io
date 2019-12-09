@@ -172,7 +172,7 @@ input#submit {
 
 @media (max-width:1000px) {
   input, textarea {
-    font-size: 3vmin;
+    font-size: 4vmin;
     width: 91vw;
     padding: 4px 4px 3px 20px; 
   }
@@ -183,4 +183,11 @@ input#submit {
   }
   #contactquote {
     margin-top: 5em;
+}
+}
+
+@media (max-width:600px) {
+  #contactquote {
+    margin-top: 6em;
+}
 }
