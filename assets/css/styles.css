@@ -36,9 +36,11 @@ section:nth-child(4) {
 
 #hero {
   width: 100vw;
-  min-height: 100vh;
-  object-fit: cover;
-  object-position: center;
+  margin-top: 10em;
+  min-height: 88vh;
+  max-height: 88vh;
+  object-fit: contain;
+  object-position: right;
 
 }
 
