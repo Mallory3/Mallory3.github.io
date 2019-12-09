@@ -1,4 +1,11 @@
-
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
 
 .smooth {
   scroll-behavior: smooth;
@@ -76,4 +83,9 @@ section:nth-child(4) {
   body {
     background-color: black; /* Blue */
   }
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
 }
