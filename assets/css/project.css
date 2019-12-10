@@ -3,8 +3,8 @@ body {
 }
 #hero {
   width: 100%;
-  min-height: 55vh;
-  max-height: 55vh;
+  min-height: 43vh;
+  max-height: 43vh;
   object-fit: cover;
   object-position: right;
 }
@@ -84,5 +84,4 @@ ul {
   transform: rotateX(-90deg);
 }
 
-}
 
