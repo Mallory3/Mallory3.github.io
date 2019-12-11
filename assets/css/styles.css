@@ -110,10 +110,10 @@ body {
     width: 100%;
     object-fit: contain;
     object-position: right;
-    height: 80vh;
+    height: 70vh;
     grid-row-start: 3;
     background-color:red;
-    margin-top: 6em;
+    margin-top: 12em;
   }
   
   #heroTitle {
