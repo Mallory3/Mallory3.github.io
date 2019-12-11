@@ -38,12 +38,11 @@ body {
 @media only screen and (max-width: 850px) {
   #hero {
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
     object-position: center;
     height: 70vh;
-    grid-row-start: 3;
     background-color: green;
-    margin-top: 10em;
+    margin-top: 10.5em;
   }
   
   #heroTitle {
