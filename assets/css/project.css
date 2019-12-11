@@ -3,9 +3,15 @@ body {
 }
 #background {
   width: 100%;
-  height: 99vh;
- 
+  height: 100vh;
+  background-image: url("/assets/img/redlightlicenced.jpg");
+  object-fit: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  
 }
+ 
+/* }
 .fullscreen-bg {
   position: fixed;
   top: 0;
@@ -17,14 +23,14 @@ body {
   
 }
 
-.fullscreen-bg__video {
+.fullscreen-bg__video { */
   /* position: absolute;
   top: 0;
   left: 0; */
-  width: 100%;
+  /* width: 100%;
   height: 90vw;
   object-fit: cover;
-}
+} */
 
 /* @media (min-aspect-ratio: 16/9) {
   .fullscreen-bg__video {
@@ -57,7 +63,6 @@ body {
   background-color: black;
   margin: auto;
   position: relative;
-  top: 1em;
   border-radius: 20px;
 }
 
@@ -162,7 +167,7 @@ ul {
 
 .box{
   position: relative;
-  top: 50%;
+  top: 45%;
   left: 50%;
   /* margin-top: 6em; */
   transform: translate(-50%,-50%);
@@ -177,7 +182,7 @@ ul {
   left: 0;
   width: 100%;
   height: 3px;
-  background: linear-gradient(45deg, #f86f2f, #f86f2f, #1f0a18);
+  background: linear-gradient(45deg, #f84d2f, #f84f2f, #1f0a18);
 }
 .box::before{
   top: 0;
@@ -219,7 +224,7 @@ ul {
   top: -12px;
   width: 3px;
   height: calc(100% + 24px);
-  background: linear-gradient(45deg, #f86f2f, #f86f2f, #1f0a18);
+  background: linear-gradient(45deg, #f84f2f, #f84f2f, #1f0a18);
 }
 .content::before{
   left: -12px;
