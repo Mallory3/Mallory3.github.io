@@ -42,7 +42,7 @@ body {
     object-fit: cover;
     object-position: center;
     height: 70vh;
-    margin-top: 8em;
+    margin-top: 15.5em;
   }
   
   #heroTitle {
@@ -88,7 +88,7 @@ body {
     object-position: right;
     height: 70vh;
     background-color: black;
-    margin-top: 15em;
+    margin-top: 15.5em;
   }
   
   #heroTitle {
