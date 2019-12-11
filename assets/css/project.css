@@ -21,6 +21,18 @@ body {
   margin: auto;
 } 
 
+#owlhero {
+  width: 100%;
+  height: 100vh;
+}
+
+#owl {
+  height: 90vh;
+  width: 100%;
+  object-fit: contain;
+  margin-top: 100px;
+}
+
 #main {
   height: 40vh;
   display: grid;
