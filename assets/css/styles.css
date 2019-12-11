@@ -1,6 +1,7 @@
 
 body {
   max-height: 100vh;
+  background-color: black;
 }
 
 
@@ -41,7 +42,6 @@ body {
     object-fit: cover;
     object-position: center;
     height: 70vh;
-    background-color: green;
     margin-top: 8em;
   }
   
