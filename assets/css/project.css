@@ -23,7 +23,7 @@ body {
 
 #owlhero {
   width: 100%;
-  height: 100vh;
+  height: 55vh;
 }
 
 #owl {
@@ -43,6 +43,7 @@ ul {
   grid-column-start: 1;
   grid-column-end: 2;
   margin: auto;
+  list-style: none;
 
 }
 
@@ -59,7 +60,7 @@ ul {
 
 .button {
   display: block;
-  width: 200px;
+  width: 250px;
   height: 60px;
   position: relative;
   font-family: arial;
@@ -96,4 +97,110 @@ ul {
   transform: rotateX(-90deg);
 }
 
+
+
+
+.box{
+  position: relative;
+  left: 50%;
+  margin-top: 8em;
+  transform: translate(-50%,-50%);
+  width: 400px;
+  height: 320px;
+  background: black;
+  overflow: hidden;
+}
+.box::before, .box::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #f15d30;
+}
+.box::before{
+  top: 0;
+  animation: trX1 3s infinite linear;
+  transform: translateX(-100%);
+}
+@keyframes trX1{
+  to{
+    transform: translateX(100%);
+  }
+}
+.box::after{
+  bottom: 0;
+  animation: trX2 3s infinite linear;
+  transform: translateX(100%);
+}
+@keyframes trX2{
+  to{
+    transform: translateX(-100%);
+  }
+}
+.content{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  color: black;
+  border: 2px solid black;
+}
+.content::before, .content::after{
+  content: "";
+  position: absolute;
+  top: -12px;
+  width: 3px;
+  height: calc(100% + 24px);
+  background-color: #f15d30;
+}
+.content::before{
+  left: -12px;
+  animation: trY1 3s infinite linear;
+  animation-delay: 1.5s;
+  transform: translateY(100%);
+}
+@keyframes trY1{
+  to{
+    transform: translateY(-100%);
+  }
+}
+.content::after{
+  right: -12px;
+  animation: trY2 3s infinite linear;
+  animation-delay: 1.5s;
+  transform: translateY(-100%);
+}
+@keyframes trY2{
+  to{
+    transform: translateY(100%);
+  }
+}
+h3{
+  margin-bottom: 0px;
+}
+#connect{
+  font-size: 1rem;
+  word-spacing: 5px;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(45deg, #f86f2f, #f86f2f, #1f0a18);
+  transform: skew(-15deg) translateX(-115%);
+  transition: transform .5s ease-in-out;
+  z-index: -1;
+}
+.box:hover .overlay{
+  transform: skew(-15deg) translateX(-50%);
+}
 
