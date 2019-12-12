@@ -22,7 +22,7 @@ Triangle Div Style: https://stackoverflow.com/questions/31242417/center-triangle
 
 /* DEMO-SPECIFIC STYLES */
 .typewriter h1 {
-  color: #fff;
+  color: #f1b7a5;
   font-size: 5ch;
   font-family: monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -311,7 +311,72 @@ Triangle Div Style: https://stackoverflow.com/questions/31242417/center-triangle
 /* - - - - - - - - - - - - - - - - - - - - - - - - 
 Skill Cards
 - - - - - - - - - - - - - - - - - - - - - - - - */
-
+.text-effect {
+  overflow: hidden;
+  position: relative;
+  left: 38%;
+  filter: contrast(110%) brightness(190%);
+}
+.neon {
+  position: relative;
+  background: black;
+  color: transparent;
+}
+.neon::before, .neon::after {
+  content: attr(data-text);
+  color: white;
+  filter: blur(0.02em);
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+.neon::after {
+  mix-blend-mode: difference;
+}
+.gradient, .spotlight {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  pointer-events: none;
+  z-index: 10;
+}
+.gradient {
+  background: linear-gradient(45deg, rgb(202, 49, 29), rgb(1, 14, 48));
+  mix-blend-mode: multiply;
+}
+.spotlight {
+  animation: light 8s infinite linear;
+  background: radial-gradient(circle, white, transparent 25%) 0 0 / 25% 25%, radial-gradient(circle, white, black 25%) 50% 50% / 12.5% 12.5%;
+  top: -100%;
+  left: -100%;
+  mix-blend-mode: color-dodge;
+}
+@keyframes light {
+  100% {
+    transform: translate3d(50%, 50%, 0);
+ }
+}
+.neon {
+  font: 700 100px 'Lato', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+}
+.neon:focus {
+  outline: none;
+  border: 1px dotted white;
+}
+/* body {
+  background: black;
+  display: flex;
+  min-height: 10vh;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+} */
 
 #cardList {
 	background-color: black;
@@ -357,11 +422,12 @@ Skill Cards
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows:1fr 4fr;
 	border-radius: 20px;
-	background: -webkit-linear-gradient( #f15d30, #1f0a18);
-  max-height: 54vh;
-  max-width: 40vh;
+	background: -webkit-linear-gradient( #470303, #f15d30);
+  height: 400px;
+  width: 360px;
+  flex: 1 230px;
   margin: auto;
-  opacity: 0.95;
+  opacity: 1;
 }
 
 .card:hover {
@@ -371,7 +437,7 @@ Skill Cards
 		background-color 1s,
 		box-shadow 1s,
 		transform .5s; 
-	opacity: 1;
+  background: -webkit-linear-gradient(#f15d30, #470303);
 }
 
 .cardtitle {
@@ -379,9 +445,9 @@ Skill Cards
 	grid-column: 1/-1;
 	grid-row: 1;
 	text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3ch;
-  color: black;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 4ch;
+  color: rgb(0, 0, 0);
 }
 
 .one, .two, .three, .four, .five {
@@ -389,7 +455,7 @@ Skill Cards
   margin: .5em;
   list-style: none;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Bebas Neue', cursive;
   font-size: 1.5rem;
 }
 
