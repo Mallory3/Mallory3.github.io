@@ -81,7 +81,7 @@ header a:hover {
 
 .glow-on-hover:before {
   content: '';
-  background: linear-gradient(45deg, #e73e38, #ff4800, #ffd900, #19583e, #00ffd5, #035c72, #5f37ee, #ff00c8, #f33e27);
+  background: linear-gradient(45deg, #e73e38, #ff4800, #ff4800, #ff4800, #470303, #470303, #470303, #470303, #f33e27);
   position: absolute;
   top: -2px;
   left:-2px;

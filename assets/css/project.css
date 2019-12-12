@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit:700&display=swap');
+
 body {
   background-color: black;
 }
@@ -169,7 +171,7 @@ ul {
   width: 250px;
   height: 60px;
   position: relative;
-  font-family: arial;
+  font-family: 'Kanit', sans-serif;
   margin-top: 1em;
   font-size: 20px;
 }
@@ -193,7 +195,7 @@ ul {
 
 .button :nth-child(2) {
   background-color: black;
-  color: white;
+  color: rgb(247, 197, 197);
   transform: rotateX(0deg);
 }
 
