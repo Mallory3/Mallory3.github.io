@@ -10,6 +10,47 @@ body {
   background-repeat: no-repeat;
   
 }
+
+/* #title {
+  display: block;
+  margin: auto;
+  text-align: center;
+  color: rgb(204, 58, 58);
+  width: 100%;
+  font-size: 25px;
+  position: absolute;
+  top: 17%;
+} */
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1 {
+  position: absolute;
+  top: 13%;
+  left: 42%;
+  color: #fff;
+  font-size: 5ch;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0% }
+  to { width: 17% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
  
 /* }
 .fullscreen-bg {
@@ -129,6 +170,8 @@ ul {
   height: 60px;
   position: relative;
   font-family: arial;
+  margin-top: 1em;
+  font-size: 20px;
 }
 
 .button div {
@@ -144,7 +187,7 @@ ul {
 
 .button :nth-child(1) {
   color: black;
-  background: linear-gradient(45deg, #f86f2f, #1f0a18);
+  background: linear-gradient(45deg, #f86f2f, #000000);
   transform: rotateX(90deg);
 }
 
@@ -172,7 +215,7 @@ ul {
   /* margin-top: 6em; */
   transform: translate(-50%,-50%);
   width: 380px;
-  height: 320px;
+  height: 350px;
   background: black;
   overflow: hidden;
 }
@@ -216,7 +259,7 @@ ul {
   text-align: center;
   padding: 20px;
   color: black;
-  border: 2px solid black;
+  border: 2px solid rgb(0, 0, 0);
 }
 .content::before, .content::after{
   content: "";
