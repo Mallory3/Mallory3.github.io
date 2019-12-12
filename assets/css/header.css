@@ -18,9 +18,10 @@ header nav .wrapper {
 }
 
 header .logo {
-  height: 35px;
-  width: 35px;
+  height: 40px;
+  width: 40px;
   margin: 1em;
+  margin-left: 2em;
 }
 
 header .menu {
@@ -81,7 +82,7 @@ header a:hover {
 
 .glow-on-hover:before {
   content: '';
-  background: linear-gradient(45deg, #e73e38, #ff4800, #ff4800, #ff4800, #470303, #470303, #470303, #470303, #f33e27);
+  background: linear-gradient(45deg, #e73e38, #ff4800, #ff4800, #ffae00, #470303, #470303, #470303, #470303, #f33e27);
   position: absolute;
   top: -2px;
   left:-2px;

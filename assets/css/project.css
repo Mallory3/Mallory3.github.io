@@ -171,7 +171,7 @@ ul {
   width: 250px;
   height: 60px;
   position: relative;
-  font-family: 'Kanit', sans-serif;
+  font-family: monospace;
   margin-top: 1em;
   font-size: 20px;
 }
@@ -190,12 +190,13 @@ ul {
 .button :nth-child(1) {
   color: black;
   background: linear-gradient(45deg, #f86f2f, #000000);
+  background: linear-gradient(45deg, #f5ac0f, #690909);
   transform: rotateX(90deg);
 }
 
 .button :nth-child(2) {
   background-color: black;
-  color: rgb(247, 197, 197);
+  color: rgb(252, 231, 231);
   transform: rotateX(0deg);
 }
 

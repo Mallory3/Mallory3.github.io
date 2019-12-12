@@ -22,7 +22,7 @@ Triangle Div Style: https://stackoverflow.com/questions/31242417/center-triangle
 
 /* DEMO-SPECIFIC STYLES */
 .typewriter h1 {
-  color: #f1b7a5;
+  color: #fce4dc;
   font-size: 5ch;
   font-family: monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */

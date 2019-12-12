@@ -70,7 +70,7 @@ width: 100%;
 background: -webkit-linear-gradient( -45deg,#f15d30, #f15d30, #1f0a18);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-margin-top: 5vw;
+margin-top: 4vw;
 margin-bottom: 0vw;
 }
 
@@ -118,26 +118,26 @@ span {
 
 input {
 	font-family: 'Raleway', sans-serif;
-	font-size: 25px;
+	font-size: 22px;
   border-radius: 5px; 
   padding: 1px 1px 3px 20px; 
   background-repeat: no-repeat; 
   background-position: 8px 9px; 
   display: block; 
-  width:50vw;
+  width:40vw;
   margin: auto;
   color: black;
 }
 
 textarea {
   font-family: 'Raleway', sans-serif;
-	font-size: 3ch;
+	font-size: 22px;
   border-radius: 5px; 
   padding: 1px 1px 3px 20px; 
   background-repeat: no-repeat; 
   background-position: 8px 9px; 
   display: block; 
-  width:50vw;
+  width:40vw;
   height: 20vh;
   margin: auto;
   color: black;
@@ -162,8 +162,8 @@ input#submit {
 
 #submit:hover { 
 	border-top-color: #0a0317;
-	background: #0a0317;
-	color: #ccc;
+	background: -webkit-linear-gradient(-45deg, #1f0a18, #1f0a18, #f15d30);
+	color: white;
 }
 
 @media (min-width:890px) {
@@ -172,7 +172,6 @@ input#submit {
 
 @media (max-width:1000px) {
   input, textarea {
-    font-size: 4vmin;
     width: 91vw;
     padding: 4px 4px 3px 20px; 
   }
