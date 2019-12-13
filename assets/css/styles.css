@@ -73,7 +73,7 @@ body {
 /* DEMO-SPECIFIC STYLES */
 .typewriter h1 {
   position: absolute;
-  bottom: 79%;
+  bottom: 80%;
   left: 15%;
   color: rgb(248, 238, 223);
   font-size: 5ch;
@@ -112,7 +112,7 @@ body {
   overflow: hidden;
   position: relative;
   left: 22%;
-  bottom: 42em;
+  bottom: 44em;
   filter: contrast(110%) brightness(190%);
   z-index: 0;
 }
