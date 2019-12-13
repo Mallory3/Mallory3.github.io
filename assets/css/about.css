@@ -74,10 +74,10 @@ Triangle Div Style: https://stackoverflow.com/questions/31242417/center-triangle
   justify-content: center;
   min-height: 80vh;
   background-image: url('https://images.unsplash.com/photo-1468186402854-9a641fd7a7c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80');
-  background-blend-mode: soft-light;
   background-size: cover;
   background-position: center bottom;
   padding: 2rem;
+  background-color: black;
 }
 .bird {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/174479/bird-cells-new.svg);
