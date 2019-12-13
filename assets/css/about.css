@@ -47,6 +47,24 @@ Triangle Div Style: https://stackoverflow.com/questions/31242417/center-triangle
   50% { border-color: orange }
 }
 
+@media only screen and (max-width: 900px) {
+  .typewriter h1 {
+    font-size: 4ch;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .typewriter h1 {
+    font-size: 3ch;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .typewriter h1 {
+    font-size: 2ch;
+  }
+}
+
 .container {
   z-index: 1;
   position: relative;
@@ -369,14 +387,25 @@ Skill Cards
   outline: none;
   border: 1px dotted white;
 }
-/* body {
-  background: black;
-  display: flex;
-  min-height: 10vh;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-} */
+@media only screen and (max-width: 800px) {
+  .text-effect {
+    left: 5%;
+  }
+  .neon {
+    font: 700 50px 'Lato', sans-serif;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .text-effect {
+    left: 14%;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .text-effect {
+    left: 31%;
+  }
+}
+
 
 #cardList {
 	background-color: black;
@@ -422,7 +451,7 @@ Skill Cards
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows:1fr 4fr;
 	border-radius: 20px;
-	background: -webkit-linear-gradient( #470303, #f15d30);
+	background: -webkit-linear-gradient(#f15d30, #6e0707);
   height: 400px;
   width: 360px;
   flex: 1 230px;
@@ -437,7 +466,7 @@ Skill Cards
 		background-color 1s,
 		box-shadow 1s,
 		transform .5s; 
-  background: -webkit-linear-gradient(#f15d30, #470303);
+  background: -webkit-linear-gradient(#6e0707,#f15d30);
 }
 
 .cardtitle {
@@ -608,5 +637,3 @@ Skill Cards
   .box:hover .overlay{
     transform: skew(-15deg) translateX(-50%);
   }
-  
-
