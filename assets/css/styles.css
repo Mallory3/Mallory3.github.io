@@ -112,7 +112,7 @@ body {
   overflow: hidden;
   position: relative;
   left: 22%;
-  bottom: 44em;
+  bottom: 45em;
   filter: contrast(110%) brightness(190%);
   z-index: 0;
 }
